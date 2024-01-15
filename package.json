@@ -1,0 +1,16 @@
+{
+  "name": "counsel-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:counsel-health/counsel-main.git",
+  "author": "Justin Yu <justinyu1618@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "dev": "yarn --cwd ./apps/test-app dev -p 3000"
+  }
+}
